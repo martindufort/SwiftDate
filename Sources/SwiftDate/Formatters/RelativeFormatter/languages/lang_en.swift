@@ -33,8 +33,10 @@ public class lang_en: RelativeFormatterLang {
 
 	private var _tiny: [String: Any] {
 		return [
-			"year": "{0}yr",
-			"month": "{0}mo",
+            "year": "{0}Y",     // Prefers uppercase abbrev
+// 			"year": "{0}yr",
+			"month": "{0}M",    // Prefer uppercase abbrev
+//          "month": "{0}mo",
 			"week": "{0}wk",
 			"day": "{0}d",
 			"hour": "{0}h",
